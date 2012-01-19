@@ -45,7 +45,10 @@ height: 180px;
 width: 360;
 margin: 0px;
 opacity: 0.2;
-position: relative;
+/* For IE8 */
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+/* For IE 7 - must be after the IE8 one */
+filter: alpha(opacity=20);
 }
 
 /* Settings for headings */
