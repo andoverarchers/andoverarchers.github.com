@@ -1,16 +1,32 @@
 /* Body defaults */
 body
 {
+height: 100%;
 background-color: white;
+background: url(field-sm.jpg) top left no-repeat;
+background-size: 100%;
+<!--[if lt IE 9]>
+background: none white;
+<!--[endif]-->
 color: black;
 font-family: 'Trebuchet MS', Tahoma, sans-serif;
+margin: 0px;
 }
 
 /* Wrap */
 #wrap
 {
+min-height: 800px;
 width: 930px;
 margin: 0px auto;
+-webkit-border-top-left-radius: 90px;
+-o-border-top-left-radius: 90px;
+-moz-border-top-left-radius: 90px;
+-ms-border-top-left-radius: 90px;
+border-top-left-radius: 90px;
+background-color: white;
+background: rgb(254, 254, 254); /* Fallback */
+background: rgba(254, 254, 254, 0.90) /* Transparency */
 }
 
 /* Header */
@@ -18,15 +34,15 @@ margin: 0px auto;
 header
 {
 background: #A43C0D;
-width: 900px;
+width: 930px;
 height: 180px;
 -webkit-border-radius: 90px 0px 0px 90px;
 -o-border-radius: 90px 0px 0px 90px;
 -moz-border-radius: 90px 0px 0px 90px;
 -ms-border-radius: 90px 0px 0px 90px;
 border-radius: 90px 0px 0px 90px;
-margin: 0px;
-margin-bottom: 5px;
+margin: 5px 0px 10px auto;
+margin;
 }
 
 /* Logo formatting */
