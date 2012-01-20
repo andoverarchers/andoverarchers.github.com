@@ -78,7 +78,15 @@ white-space: nowrap;
 h3
 {
 font-size: 1.5em;
-margin: 50px auto 5px 108px;
+margin: 50px 20px 5px 108px;
+font-family: "Georgia", "Times New Roman", serif;
+font-weight: normal;
+}
+
+h4
+{
+font-size: 1.3em;
+margin: 20px 20px 5px 108px;
 font-family: "Georgia", "Times New Roman", serif;
 font-weight: normal;
 }
@@ -142,6 +150,7 @@ border-radius: 10px 10px 0px 0px;
 {
 width: 800px;
 margin: 0px 20px 0px auto;
+padding: 0px;
 }
 
 /* Footer formatting */
