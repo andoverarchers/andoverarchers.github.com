@@ -165,8 +165,13 @@ border-radius: 10px 10px 0px 0px;
 .mt
 {
 width: 800px;
-margin: 0px 20px 0px auto;
+margin: 0px 20px 0px 108px;
 padding: 0px;
+}
+
+.indent
+{
+padding-left: 30px;
 }
 
 /* Footer formatting */
