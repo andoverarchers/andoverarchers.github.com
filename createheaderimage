@@ -1,0 +1,19 @@
+This is the workflow for using ImageMagick in Linux to process the photos for the title bar. It produces an image which fades to the background red colour, rather than ending abruptly with a sharp edge.
+
+This process relies on having the file 'gradient.png', which is overlayed over the cropped image.
+
+1. First prepare the image, by cropping a W:H 2:1 pixel number area from the image, and save as a new image (using Gimp, probably could be done in ImageMagick but difficult to immediately see the area you need to crop);
+
+2. Use the code:
+
+> convert filename.png -resize 360x360 outputfilename.png
+
+...to convert the image from whatever size it is, to a 360x180 WxH image;
+
+3. To combine the image with the gradient, use the code:
+
+> composite -compose over gradient.png filename.png outputfilename.jpg
+
+...noting that the output file should be a jpg in this case to save space.
+
+
