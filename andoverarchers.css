@@ -154,18 +154,13 @@ font-weight: bold;
 background: #21382a;
 color: white;
 padding: 5px 5px 6px 5px;
--webkit-border-radius: 10px 10px 0px 0px;
--o-border-radius: 10px 10px 0px 0px;
--moz-border-radius: 10px 10px 0px 0px;
--ms-border-radius: 10px 10px 0px 0px;
-border-radius: 10px 10px 0px 0px;
 }
 
 /* Main text divs */
 .mt
 {
 width: 800px;
-margin: 0px 20px 0px 108px;
+margin: 0px 20px 10px 108px;
 padding: 0px;
 }
 
