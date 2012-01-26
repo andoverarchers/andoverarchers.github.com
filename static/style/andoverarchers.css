@@ -203,7 +203,21 @@ display: table-cell;
 vertical-align: middle;
 text-align: center;
 min-width: 200px;
-font-family: 'Comic Sans MS', sans-serif;
+font-family: 'AngelinaRegular', Arial, sans-serif;
+font-size: 1.5em;
+color: DarkBlue;
+}
+
+@font-face
+{
+font-family: 'AngelinaRegular';
+src: url('angelina-webfont.eot');
+src: url('angelina-webfont.eot?#iefix') format('embedded-opentype'),
+url('angelina-webfont.woff') format('woff'),
+url('angelina-webfont.ttf') format('truetype'),
+url('angelina-webfont.svg#AngelinaRegular') format('svg');
+font-weight: normal;
+font-style: normal;
 }
 
 .profile
