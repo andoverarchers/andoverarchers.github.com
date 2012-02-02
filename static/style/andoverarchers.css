@@ -58,6 +58,7 @@ margin: 5px 17px 5px 5px;
 #headerimg
 {
 float: right;
+position: relative;
 height: 180px;
 width: 360;
 margin: 0px;
@@ -95,7 +96,7 @@ white-space: nowrap;
 h3
 {
 font-size: 1.5em;
-margin: 50px 20px 5px 108px;
+margin: 30px 20px 5px 108px;
 font-family: "Georgia", "Times New Roman", serif;
 font-weight: normal;
 }
@@ -111,17 +112,10 @@ font-weight: normal;
 /* Menu bar formatting */
 #menubar
 {
-width: 820px;
-text-align: right;
-float: right;
-padding: 0px 5px;
-background: #589671;
-margin: 0px;
--webkit-border-radius: 30px 0px 0px 30px;
--o-border-radius: 30px 0px 0px 30px;
--moz-border-radius: 30px 0px 0px 30px;
--ms-border-radius: 30px 0px 0px 30px;
-border-radius: 30px 0px 0px 30px;
+position: absolute;
+text-align: center;
+top: 155px;
+left: 553px;
 }
 
 #menubar ul
@@ -134,28 +128,23 @@ list-style-image: none;
 #menubar li
 {
 display: inline;
-list-style: none
+list-style: none;
 }
 
 #menubar li a
 {
 display: inline;
 text-decoration: none;
-text-align: center;
-font-size: 1.2em;
+text-align: middle;
 color: black;
-padding: 0px 5px 7px 5px;
+padding: 5px;
 color: white;
 font-family: "Georgia", "Times New Roman", serif;
 font-weight: bold;
+border-right-style: solid;
+border-right-color: white;
+border-right-width: 1px;
 } 
-
-#menubar li a:hover
-{
-background: #21382a;
-color: white;
-padding: 5px 5px 6px 5px;
-}
 
 /* Main text divs */
 .mt
