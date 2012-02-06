@@ -112,10 +112,16 @@ font-weight: normal;
 /* Menu bar formatting */
 #menubar
 {
-position: absolute;
+/*position: absolute;
 text-align: center;
 top: 155px;
-left: 553px;
+left: 553px;*/
+
+position: relative;
+text-align: center;
+top: 155px;
+left: 53px;
+white-space: nowrap;
 }
 
 #menubar ul
