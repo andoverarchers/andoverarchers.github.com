@@ -382,7 +382,7 @@ background: #FFFFF0;
 width: 200px;
 height: 240px;
 float: left;
-margin: 20px 30px 20px 20px;
+margin: 10px 30px 10px 108px;
 -webkit-box-shadow: 3px 3px 2px #888888;
 box-shadow: 3px 3px 2px #888888;
 }

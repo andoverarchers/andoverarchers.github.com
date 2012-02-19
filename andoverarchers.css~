@@ -1,0 +1,280 @@
+/* Body defaults */
+body
+{
+height: 100%;
+background-color: white;
+background: url(field-sm.jpg) top left no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+<!--[if lt IE 9]>
+background: none white;
+<!--[endif]-->
+color: black;
+font-family: 'Trebuchet MS', Tahoma, sans-serif;
+margin: 0px;
+}
+
+/* Wrap */
+#wrap
+{
+min-height: 800px;
+width: 930px;
+margin: 0px auto;
+-webkit-border-top-left-radius: 90px;
+-o-border-top-left-radius: 90px;
+-moz-border-top-left-radius: 90px;
+-ms-border-top-left-radius: 90px;
+border-top-left-radius: 90px;
+background-color: white;
+background: rgb(254, 254, 254); /* Fallback */
+background: rgba(254, 254, 254, 0.90) /* Transparency */
+}
+
+/* Header */
+
+header
+{
+background: #A43C0D;
+width: 930px;
+height: 180px;
+-webkit-border-radius: 90px 0px 0px 90px;
+-o-border-radius: 90px 0px 0px 90px;
+-moz-border-radius: 90px 0px 0px 90px;
+-ms-border-radius: 90px 0px 0px 90px;
+border-radius: 90px 0px 0px 90px;
+margin: 5px 0px 10px auto;
+margin;
+}
+
+/* Logo formatting */
+#badge
+{
+float: left;
+height: 170px;
+width: 170px;
+margin: 5px 17px 5px 5px;
+}
+
+#headerimg
+{
+float: right;
+height: 180px;
+width: 360;
+margin: 0px;
+opacity: 0.3;
+/* For IE8 */
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+/* For IE 7 - must be after the IE8 one */
+filter: alpha(opacity=20);
+}
+
+/* Settings for headings */
+h1
+{
+font-size: 3.5em;
+padding: 35px 0px 5px 200px;
+margin: 0px;
+color: white;
+font-family: "Georgia", "Times New Roman", serif;
+position: absolute;
+text-shadow: 2px 2px 1px black;
+white-space: nowrap;
+}
+
+h2
+{
+font-size: 1.0em;
+margin: 0px;
+padding: 100px 0px 5px 200px;
+color: white;
+position: absolute;
+text-shadow: 2px 2px 1px black;
+white-space: nowrap;
+}
+
+h3
+{
+font-size: 1.5em;
+margin: 50px 20px 5px 108px;
+font-family: "Georgia", "Times New Roman", serif;
+font-weight: normal;
+}
+
+h4
+{
+font-size: 1.3em;
+margin: 20px 20px 5px 108px;
+font-family: "Georgia", "Times New Roman", serif;
+font-weight: normal;
+}
+
+/* Menu bar formatting */
+#menubar
+{
+width: 820px;
+text-align: right;
+float: right;
+padding: 0px 5px;
+background: #589671;
+margin: 0px;
+-webkit-border-radius: 30px 0px 0px 30px;
+-o-border-radius: 30px 0px 0px 30px;
+-moz-border-radius: 30px 0px 0px 30px;
+-ms-border-radius: 30px 0px 0px 30px;
+border-radius: 30px 0px 0px 30px;
+}
+
+#menubar ul
+{
+margin: 5px 0px;
+list-style-type: none;
+list-style-image: none;
+}
+
+#menubar li
+{
+display: inline;
+list-style: none
+}
+
+#menubar li a
+{
+display: inline;
+text-decoration: none;
+text-align: center;
+font-size: 1.2em;
+color: black;
+padding: 0px 5px 7px 5px;
+color: white;
+font-family: "Georgia", "Times New Roman", serif;
+font-weight: bold;
+} 
+
+#menubar li a:hover
+{
+background: #21382a;
+color: white;
+padding: 5px 5px 6px 5px;
+}
+
+/* Main text divs */
+.mt
+{
+width: auto;
+margin: 0px 20px 10px 108px;
+padding: 0px;
+}
+
+.indent
+{
+padding-left: 30px;
+}
+
+/* Footer formatting */
+footer
+{
+text-align: center;
+margin: 40px 0px 0px 0px;
+padding-bottom: 10px;
+}
+
+/* Profile pictures */
+.polaroid
+{
+background: #FFFFF0;
+width: 200px;
+height: 240px;
+float: left;
+margin: 10px 30px 10px 108px;
+-webkit-box-shadow: 3px 3px 2px #888888;
+box-shadow: 3px 3px 2px #888888;
+}
+
+.mugshot
+{
+width: 180px;
+height: 180px;
+margin: 10px;
+}
+
+.handwriting
+{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+min-width: 200px;
+font-family: 'AngelinaRegular', Arial, sans-serif;
+font-size: 1.5em;
+}
+
+@font-face
+{
+font-family: 'AngelinaRegular';
+src: url('angelina-webfont.eot');
+src: url('angelina-webfont.eot?#iefix') format('embedded-opentype'),
+url('angelina-webfont.woff') format('woff'),
+url('angelina-webfont.ttf') format('truetype'),
+url('angelina-webfont.svg#AngelinaRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+.profile
+{
+padding-top: 20px;
+}
+
+/* Classes to rotate pictures by different amounts */
+.right7
+{
+-ms-transform: rotate(7deg); /* IE 9 */
+-moz-transform: rotate(7deg); /* Firefox */
+-webkit-transform: rotate(7deg); /* Safari and Chrome */
+-o-transform: rotate(7deg); /* Opera */
+transform: rotate(7deg);
+}
+
+.left5
+{
+-ms-transform: rotate(-5deg); /* IE 9 */
+-moz-transform: rotate(-5deg); /* Firefox */
+-webkit-transform: rotate(-5deg); /* Safari and Chrome */
+-o-transform: rotate(-5deg); /* Opera */
+transform: rotate(-5deg);
+}
+
+.right5
+{
+-ms-transform: rotate(5deg); /* IE 9 */
+-moz-transform: rotate(5deg); /* Firefox */
+-webkit-transform: rotate(5deg); /* Safari and Chrome */
+-o-transform: rotate(5deg); /* Opera */
+transform: rotate(5deg);
+}
+
+.left10
+{
+-ms-transform: rotate(-10deg); /* IE 9 */
+-moz-transform: rotate(-10deg); /* Firefox */
+-webkit-transform: rotate(-10deg); /* Safari and Chrome */
+-o-transform: rotate(-10deg); /* Opera */
+transform: rotate(-10deg);
+}
+
+.right2
+{
+-ms-transform: rotate(2deg); /* IE 9 */
+-moz-transform: rotate(2deg); /* Firefox */
+-webkit-transform: rotate(2deg); /* Safari and Chrome */
+-o-transform: rotate(2deg); /* Opera */
+transform: rotate(2deg);
+}
+
+.right9
+{
+-ms-transform: rotate(9deg); /* IE 9 */
+-moz-transform: rotate(9deg); /* Firefox */
+-webkit-transform: rotate(9deg); /* Safari and Chrome */
+-o-transform: rotate(9deg); /* Opera */
+transform: rotate(9deg);
+}

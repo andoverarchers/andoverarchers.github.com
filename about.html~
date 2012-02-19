@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>	
+<meta charset="utf-8" />
+<title>Andover Archers</title>	
+<meta name="keywords" content="andover, archery, archers, beginners, shooting, bow, bows, arrow, arrows" />
+<link rel="stylesheet" type="text/css" href="static/style/andoverarchers.css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<!-- Wrap to center webpage -->
+<div id="wrap">
+
+<!-- Header including logo, title and menubar -->
+<header>
+
+	<img id="badge" src="static/img/badge-tr-sm.gif" alt="Andover Archers logo" />
+	<img id="headerimg" src="static/img/header-2.jpg" alt="Header image" />
+	<h1>Andover Archers</h1>
+	<h2>Incorporating Andover Junior Archers and Andover Disabled Archers</h2>
+
+	<nav id="menubar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="members.html">Members</a></li>
+			<li><a href="committee.html">Committee</a></li>
+			<li><a href="beginners.html">Beginners</a></li>
+			<li><a href="tournaments.html">Tournaments</a></li>
+		</ul>
+	</nav>
+</header>
+
+
+<h3>About us</h3>
+
+<div class="mt">
+	<p>For general enquiries, please email the <a href="mailto:webmonkey.andoverarchers@gmail.com">Webmaster</a>. </p>
+
+	<p>The club's practice ground is located at:<br>
+
+	<address>
+	Foxcotte Park, 
+	Hatherden, 
+	Charlton, 
+	Andover, 
+	Hants, 
+	SP11 0TA
+	</address>
+
+</div>
+
+<footer>
+&copy; Copyright Andover Archers 2012
+</footer>
+
+</div>
+</body>
+</html>
