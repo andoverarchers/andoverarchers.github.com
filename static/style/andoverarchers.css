@@ -145,6 +145,12 @@ font-family: "Georgia", "Times New Roman", serif;
 font-weight: bold;
 }
 
+.caldate
+{
+border-bottom-style: solid;
+border-bottom-color: black;
+}
+
 /* Home Page formatting */
 
 	/* News Tile */
