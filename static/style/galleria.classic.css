@@ -5,7 +5,7 @@
  */
 
 .galleria-container {
-    height: 720px;
+    height: 600px; /* Size of photos */
     width: 900px;
     position: relative;
     overflow: hidden;
@@ -147,6 +147,7 @@
     left: 10px;
     z-index: 2;
     background-position: 0 46px;
+    background-color: #bbb;
 }
 .galleria-image-nav-right {
     left: auto;
@@ -193,13 +194,13 @@
 .notouch .galleria-thumb-nav-right:hover {
     opacity: 1;
     filter: alpha(opacity=100);
-    background-color: #000;
+    background-color: #bbb;
 }
 .touch .galleria-thumb-nav-left:active,
 .touch .galleria-thumb-nav-right:active {
     opacity: 1;
     filter: alpha(opacity=100);
-    background-color: #000;
+    background-color: #bbb;
 }
 .notouch .galleria-thumbnails-container .disabled:hover {
     opacity: .2;
