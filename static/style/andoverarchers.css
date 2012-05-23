@@ -145,62 +145,67 @@ font-family: "Georgia", "Times New Roman", serif;
 font-weight: bold;
 }
 
-.caldate
-{
-border-bottom-style: solid;
-border-bottom-color: black;
-}
-
 /* Home Page formatting */
 
 	/* News Tile */
-	#news
+	#contact
 	{
 	width: 600px;
-	height: 200px;
+	height: 400px;
 	background: rgb(254, 254, 254); /* Fallback */
 	background: rgba(254, 254, 254, 0.90); /* Transparency */
 	float: left;
 	margin-top: 10px;
 	}
 
-	#newsimg
-	{
-	width: 255px;
-	height: 170px;
-	margin: 15px;
-	float: left;
-	}
-
-	#news p
+	#contact p
 	{
 	padding-right: 15px;
+	margin-left: 15px;
+	}
+
+	#contact h3
+	{
+	padding-right: 15px;
+	margin-left: 15px;
+	}
+
+	#contact iframe
+	{
+	padding-right: 15px;
+	margin-left: 15px;
+	}
+
+	#contact .maplink
+	{
+	padding-right: 15px;
+	margin-left: 15px;
 	}
 	
-	/* About tile */
-	#about
+	/* News sidebar */
+	#news
 	{
 	width: 300px;
-	height: 430px;
+	height: 630px;
 	background: rgb(254, 254, 254); /* Fallback */
 	background: rgba(254, 254, 254, 0.90); /* Transparency */
 	float: right;
 	margin-top: 10px;
 	}
 
-	#about p
+	#news p
 	{
 	margin-left: 15px;
 	padding-right: 15px;
 	}
 
-	#about address
+	#news h3
 	{
 	margin-left: 15px;
 	padding-right: 15px;
 	}
 
-	#about h4
+	#news h4
 	{
 	font-size: 1.0em;
 	margin-left: 15px;
@@ -282,7 +287,7 @@ footer
 {
 float: left;
 width: 100%;
-height: 60px;
+height: 50px;
 background: rgb(254, 254, 254); /* Fallback */
 background: rgba(254, 254, 254, 0.90); /* Transparency */
 margin: 30px 0px;
@@ -290,20 +295,10 @@ margin: 30px 0px;
 
 #footer
 {
-<<<<<<< HEAD
 text-align: center;
-=======
-/*position: absolute;
-text-align: center;
-top: 155px;
-left: 553px;*/
-
 position: relative;
 text-align: center;
-top: 155px;
-left: 53px;
 white-space: nowrap;
->>>>>>> 095c188dba8721fe00a09e8b7e1ed681a3fb2be0
 }
 
 /* Page sections */
