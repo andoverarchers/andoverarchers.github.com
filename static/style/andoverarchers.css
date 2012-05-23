@@ -148,7 +148,7 @@ font-weight: bold;
 
 /* Home Page formatting */
 
-	/* News Tile */
+	/* Contact Tile */
 	#contact
 	{
 	width: 600px;
@@ -157,6 +157,11 @@ font-weight: bold;
 	background: rgba(254, 254, 254, 0.90); /* Transparency */
 	float: left;
 	margin-top: 10px;
+	-webkit-border-radius: 90px 0px 0px 0px;
+	-o-border-radius: 10px 0px 0px 0px;
+	-moz-border-radius: 10px 0px 0px 0px;
+	-ms-border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px;
 	}
 
 	#contact p
@@ -192,6 +197,11 @@ font-weight: bold;
 	background: rgba(254, 254, 254, 0.90); /* Transparency */
 	float: right;
 	margin-top: 10px;
+	-webkit-border-radius: 90px 0px 0px 0px;
+	-o-border-radius: 10px 0px 0px 0px;
+	-moz-border-radius: 10px 0px 0px 0px;
+	-ms-border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px;
 	}
 
 	#news p
@@ -223,6 +233,11 @@ font-weight: bold;
 	float: left;
 	margin-top: 30px;
 	position: relative;
+	-webkit-border-radius: 90px 0px 0px 0px;
+	-o-border-radius: 10px 0px 0px 0px;
+	-moz-border-radius: 10px 0px 0px 0px;
+	-ms-border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px;
 	}
 
 	#beginnersimg
@@ -257,6 +272,11 @@ font-weight: bold;
 	margin-top: 30px;
 	margin-right: 30px;
 	position: relative;
+	-webkit-border-radius: 90px 0px 0px 0px;
+	-o-border-radius: 10px 0px 0px 0px;
+	-moz-border-radius: 10px 0px 0px 0px;
+	-ms-border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px;
 	}
 
 	#tourimg
@@ -292,6 +312,12 @@ height: 50px;
 background: rgb(254, 254, 254); /* Fallback */
 background: rgba(254, 254, 254, 0.90); /* Transparency */
 margin: 30px 0px;
+-webkit-border-radius: 90px 0px 0px 0px;
+-o-border-radius: 10px 0px 0px 0px;
+-moz-border-radius: 10px 0px 0px 0px;
+-ms-border-radius: 10px 0px 0px 0px;
+border-radius: 10px 0px 0px 0px;
+
 }
 
 #footer
@@ -311,6 +337,12 @@ background: rgb(254, 254, 254); /* Fallback */
 background: rgba(254, 254, 254, 0.90); /* Transparency */
 padding-bottom: 5px;
 margin: 15px 0px 15px 0px;
+-webkit-border-radius: 90px 0px 0px 0px;
+-o-border-radius: 10px 0px 0px 0px;
+-moz-border-radius: 10px 0px 0px 0px;
+-ms-border-radius: 10px 0px 0px 0px;
+border-radius: 10px 0px 0px 0px;
+
 }
 
 .section h3
