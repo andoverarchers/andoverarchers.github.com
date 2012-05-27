@@ -7,10 +7,18 @@
 	<title>Andover Archers</title>	
 	<meta name="keywords" content="andover, archery, archers, beginners, shooting, bow, bows, arrow, arrows" />
 	<link rel="stylesheet" type="text/css" href="static/style/andoverarchers.css" />
+	<link href="static/style/ticker-style.css" rel="stylesheet" type="text/css" />
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="static/ticker/jquery.ticker.js" type="text/javascript"></script>
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<script type="text/javascript">
+    		$(function () {
+        	$('#js-news').ticker();
+    		});
+	</script>
 </head>
 
 <!-- Body Start -->
@@ -42,7 +50,13 @@
 				</ul>
 			</nav>
 		</header>
-	<h3 class="pagetitle">Welcome to Andover Archers</h3>
+	<h3 class="indexpagetitle">Welcome to Andover Archers</h3>
+	<ul id="js-news" class="js-hidden">
+		<li class="news-item"><a href="members.html">A club calendar has been added to the Members page.</a></li>
+    		<li class="news-item"><a href="gallery.html">An image gallery has been added to the website. If you have photos you would like to add, contact the webmaster.</a></li>
+    		<li class="news-item"><a href="static/docs/2012-Spring-Fita-Results.pdf">The results of the Spring FITA have been published.</a></li>
+    		<li class="news-item"><a href="static/docs/Saxon-2012-results.pdf">The results of the Saxon Shoot have been published.</a></li>
+	</ul>
 	</div>
 	
 	<!-- Contact Information tile -->
@@ -52,15 +66,11 @@
 		<iframe width="570" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=andover+archers&amp;aq=&amp;sll=53.800651,-4.064941&amp;sspn=14.462703,40.78125&amp;t=m&amp;ie=UTF8&amp;hq=andover+archers&amp;hnear=&amp;ll=51.232835,-1.499108&amp;spn=0.071946,0.071946&amp;&output=embed&iwloc=near"></iframe><br /><a href="http://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=andover+archers&amp;aq=&amp;sll=53.800651,-4.064941&amp;sspn=14.462703,40.78125&amp;t=m&amp;ie=UTF8&amp;hq=andover+archers&amp;hnear=&amp;ll=51.232835,-1.499108&amp;spn=0.071946,0.071946" style="color:#0000FF;text-align:left" class="maplink">Foxcotte Park, Hatherdon, Charlton, Andover, Hants, SP11 0TA</a>
 	</div>
 
-	<!-- News sidebar tile -->
-	<div id="news">
-	<h3>News</h3>
-	<h4>Image gallery</h4>
-	<p>An <a href="gallery.html">image gallery</a> page has been added to the website. If you have any club-related photos you would like to see hosted on this website, please contact the <a href="mailto:webmonkey.andoverarchers@gmail.com">webmaster</a>. 
-	<h4>Spring FITA</h4>
-	<p>The results of the Spring FITA, held on the 13th of May, can be downloaded <a href="static/docs/2012-Spring-Fita-Results.pdf">here</a>.</p>
-	<h4>Saxon Shoot</h4>
-	<p>The results of the Saxon shoot can now be downloaded <a href="static/docs/Saxon-2012-results.pdf">here</a>.</p>
+	<!-- Calendar tile -->
+	<div id="calendar">
+	<h3>Upcoming events</h3>
+	<p>A full version of the caledar can be found on the <a href="members.html">Members</a> page.</p>
+	<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=555&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=andoverarcherscalendar%40gmail.com&amp;color=%232952A3&amp;src=r3e1q9drp1nhj0m4tf7nhi4dfc%40group.calendar.google.com&amp;color=%235229A3&amp;src=v1ivvg0cusijqoqddbt09uvodk%40group.calendar.google.com&amp;color=%23B1440E&amp;src=a5kop5hgphhn2luvp4e9m7ku5c%40group.calendar.google.com&amp;color=%23333333&amp;src=8hth2eu4tpukfiou0du9akp7os%40group.calendar.google.com&amp;color=%23B1365F&amp;src=en.uk%23holiday%40group.v.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="270" height="500" frameborder="0" scrolling="no"></iframe>
 	</div>
 
 	<!-- Tournaments tile -->
