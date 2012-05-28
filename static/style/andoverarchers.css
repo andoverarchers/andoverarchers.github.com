@@ -91,8 +91,6 @@ left: 200px;
 
 #menubar ul
 {
-margin: 0px;
-padding: 0px;
 list-style-type: none;
 list-style-image: none;
 }
@@ -101,8 +99,7 @@ list-style-image: none;
 {
 display: inline;
 list-style: none;
-padding: 0px;
-margin: 0px;
+
 }
 
 #menubar li:hover
@@ -116,8 +113,7 @@ filter:alpha(opacity=60); /* For IE8 and earlier */
 display: inline;
 text-decoration: none;
 text-align: center;
-padding: 0px;
-margin: 0px;
+padding: 5px;
 color: white;
 font-family: "Georgia", "Times New Roman", serif;
 font-size: 1.2em;
@@ -126,9 +122,6 @@ text-shadow: 2px 2px 1px black;
 border-left-style: solid;
 border-left-width: 1px;
 border-left-color: white;
-border-right-style: solid;
-border-right-width: 1px;
-border-right-color: white;
 }
 
 /* Heading classes */
