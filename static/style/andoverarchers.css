@@ -101,6 +101,8 @@ list-style-image: none;
 {
 display: inline;
 list-style: none;
+padding: 0px;
+margin: 0px;
 }
 
 #menubar li:hover
