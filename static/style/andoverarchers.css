@@ -105,8 +105,8 @@ list-style: none;
 
 #menubar li:hover
 {
-opacity: 0.9;
-filter:alpha(opacity=90); /* For IE8 and earlier */
+opacity: 0.6;
+filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 
 #menubar li a
@@ -280,8 +280,8 @@ font-weight: bold;
 	width: 255px;
 	height: 170px;
 	position: relative;
-	opacity: 0.9;
-	filter:alpha(opacity=90); /* For IE8 and earlier */
+	opacity: 0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
 	}
 
 	#beginners h4
@@ -327,8 +327,8 @@ font-weight: bold;
 	width: 255px;
 	height: 170px;
 	position: relative;
-	opacity: 0.9;
-	filter:alpha(opacity=90); /* For IE8 and earlier */
+	opacity: 0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
 	}
 
 	#tournaments h4
