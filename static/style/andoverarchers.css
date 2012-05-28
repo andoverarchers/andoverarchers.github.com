@@ -85,7 +85,7 @@ filter: alpha(opacity=20);
 text-align: center;
 position: absolute;
 white-space: nowrap;
-top: 150px;
+top: 151px;
 left: 200px;
 }
 
@@ -115,7 +115,7 @@ display: inline;
 text-decoration: none;
 text-align: middle;
 padding: 5px;
-margin-bottom: 5px;
+margin: 0px;
 color: white;
 font-family: "Georgia", "Times New Roman", serif;
 font-size: 1.2em;
