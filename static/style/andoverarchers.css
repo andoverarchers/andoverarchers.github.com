@@ -116,7 +116,7 @@ filter:alpha(opacity=60); /* For IE8 and earlier */
 display: inline;
 text-decoration: none;
 text-align: center;
-padding: 5px;
+padding: 0px;
 margin: 0px;
 color: white;
 font-family: "Georgia", "Times New Roman", serif;
