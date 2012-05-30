@@ -401,6 +401,15 @@
 	float: right;
 	}
 
+	#fb
+	{
+	height: 42px;
+	width: 140px;
+	float: left;
+	padding: 0px;
+	margin: 4px 10px;
+	}
+
 /* Page sections */
 
 	.section
