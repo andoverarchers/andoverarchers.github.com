@@ -176,13 +176,13 @@
 	
 /* Home Page formatting */
 
-	/* Contact Tile */
+	/* ABW */
 
-	#contact
+	#abw
 	{
 	float: left;
 	width: 600px;
-	height: 400px;
+	height: 220px;
 	background: rgb(254, 254, 254);
 	margin-top: 10px;
 	-webkit-border-radius: 10px 0px 0px 0px;
@@ -192,36 +192,23 @@
 	border-radius: 10px 0px 0px 0px;
 	}
 
-		#contact p
-		{
-		padding-right: 15px;
-		margin-left: 15px;
-		}
-	
-		#contact h3
-		{
-		padding-right: 15px;
-		margin-left: 15px;
-		}
-	
-		#contact iframe
-		{
-		padding-right: 15px;
-		margin-left: 15px;
-		}
-	
-		#contact .maplink
+		#abw p
 		{
 		padding-right: 15px;
 		margin-left: 15px;
 		}
 		
+		#abw-banner
+		{
+		margin: 15px 15px 0px 15px;
+		}
+	
 	/* Calendar sidebar */
 
 	#calendar
 	{
 	width: 300px;
-	height: 630px;
+	height: 880px;
 	background: rgb(254, 254, 254);
 	float: right;
 	margin-top: 10px;
@@ -255,6 +242,47 @@
 		{
 		margin-left: 15px;
 		}
+
+	/* Contact Tile */
+
+	#contact
+	{
+	float: left;
+	width: 600px;
+	height: 400px;
+	background: rgb(254, 254, 254);
+	margin-top: 30px;
+	-webkit-border-radius: 10px 0px 0px 0px;
+	-o-border-radius: 10px 0px 0px 0px;
+	-moz-border-radius: 10px 0px 0px 0px;
+	-ms-border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px;
+	}
+
+		#contact p
+		{
+		padding-right: 15px;
+		margin-left: 15px;
+		}
+	
+		#contact h3
+		{
+		padding-right: 15px;
+		margin-left: 15px;
+		}
+	
+		#contact iframe
+		{
+		padding-right: 15px;
+		margin-left: 15px;
+		}
+	
+		#contact .maplink
+		{
+		padding-right: 15px;
+		margin-left: 15px;
+		}
+		
 
 	/* Beginners tile */
 
