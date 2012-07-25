@@ -88,7 +88,7 @@
 	position: absolute;
 	white-space: nowrap;
 	top: 153px;
-	left: 60px;
+	left: 40px;
 	}
 	
 		#menubar ul
@@ -132,7 +132,7 @@
 	.title
 	{
 	font-size: 3.5em;
-	padding: 35px 0px 5px 60px;
+	padding: 35px 0px 5px 40px;
 	margin: 0px;
 	color: white;
 	font-family: "Georgia", "Times New Roman", serif;
@@ -144,7 +144,7 @@
 	.subtitle
 	{
 	font-size: 1.0em;
-	padding: 100px 0px 5px 60px;
+	padding: 100px 0px 5px 40px;
 	margin: 0px;
 	color: white;
 	position: absolute;
