@@ -35,18 +35,27 @@
 
 /* Header */
 
-	header
+	#badgediv	
 	{
 	background: #A43C0D;
-	width: 100%;
+	width: 180px;
 	height: 180px;
 	-webkit-border-radius: 90px 0px 0px 90px;
 	-o-border-radius: 90px 0px 0px 90px;
 	-moz-border-radius: 90px 0px 0px 90px;
 	-ms-border-radius: 90px 0px 0px 90px;
 	border-radius: 90px 0px 0px 90px;
-	margin-top: 10px;
 	position: relative;
+	float: left;
+	}
+
+	#rest	
+	{
+	background: #A43C0D;
+	width: 750px;
+	height: 180px;
+	position: relative;
+	float:left;
 	}
 	
 	#badge
@@ -78,8 +87,8 @@
 	text-align: center;
 	position: absolute;
 	white-space: nowrap;
-	top: 152px;
-	left: 200px;
+	top: 153px;
+	left: 60px;
 	}
 	
 		#menubar ul
@@ -123,7 +132,7 @@
 	.title
 	{
 	font-size: 3.5em;
-	padding: 35px 0px 5px 200px;
+	padding: 35px 0px 5px 60px;
 	margin: 0px;
 	color: white;
 	font-family: "Georgia", "Times New Roman", serif;
@@ -135,7 +144,7 @@
 	.subtitle
 	{
 	font-size: 1.0em;
-	padding: 100px 0px 5px 200px;
+	padding: 100px 0px 5px 60px;
 	margin: 0px;
 	color: white;
 	position: absolute;
